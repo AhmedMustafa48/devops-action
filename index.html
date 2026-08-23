@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevOps Journey</title>
+    <meta
+      name="description"
+      content="A simple landing page for a developer learning DevOps fundamentals and automation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">D</span>
+          <span>DevOps Journey</span>
+        </div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#stack">Stack</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="btn btn-primary" href="#contact">Start Learning</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Learning DevOps, one pipeline at a time</p>
+            <h1>From code to deployment with confidence.</h1>
+            <p class="subtitle">
+              I’m a developer growing my skills in CI/CD, cloud infrastructure,
+              automation, and monitoring to build faster, safer, and smarter systems.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#roadmap">View Roadmap</a>
+              <a class="btn btn-secondary" href="#about">My Story</a>
+            </div>
+            <ul class="hero-stats">
+              <li><strong>6+</strong><span>Core topics</span></li>
+              <li><strong>90%</strong><span>Hands-on focus</span></li>
+              <li><strong>1</strong><span>Goal: ship better</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="terminal">
+              <div class="terminal-top">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="terminal-body">
+                <p><span class="prompt">$</span> git checkout -b feature/devops</p>
+                <p><span class="prompt">$</span> docker build -t app:v1 .</p>
+                <p><span class="prompt">$</span> kubectl apply -f deployment.yaml</p>
+                <p><span class="prompt">$</span> terraform plan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-light">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Who I am</p>
+            <h2>A developer building better workflows.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>Developer mindset</h3>
+              <p>
+                I write clean code, understand application architecture, and focus on
+                reliability from the start.
+              </p>
+            </div>
+            <div class="about-card highlight">
+              <h3>DevOps curiosity</h3>
+              <p>
+                I enjoy learning automation, infrastructure as code, automation pipelines,
+                and cloud deployment best practices.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>Continuous growth</h3>
+              <p>
+                Every day is a chance to improve: build faster, test smarter, deploy more
+                confidently.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="stack" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">My learning stack</p>
+            <h2>Tools I’m mastering</h2>
+          </div>
+          <div class="stack-grid">
+            <div class="stack-item"><span>GitHub</span></div>
+            <div class="stack-item"><span>Docker</span></div>
+            <div class="stack-item"><span>Kubernetes</span></div>
+            <div class="stack-item"><span>Linux</span></div>
+            <div class="stack-item"><span>Terraform</span></div>
+            <div class="stack-item"><span>CI/CD</span></div>
+            <div class="stack-item"><span>AWS</span></div>
+            <div class="stack-item"><span>Monitoring</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section section-accent">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Roadmap</p>
+            <h2>My DevOps learning journey</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="time">01</div>
+              <div class="content">
+                <h3>Version Control & Collaboration</h3>
+                <p>Git, GitHub workflows, branching, pull requests, and clean commit history.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="time">02</div>
+              <div class="content">
+                <h3>Containers & Environments</h3>
+                <p>Docker basics, images, containerization, and environment consistency.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="time">03</div>
+              <div class="content">
+                <h3>CI/CD Pipelines</h3>
+                <p>Automated builds, tests, deployment pipelines, and release workflows.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="time">04</div>
+              <div class="content">
+                <h3>Cloud & Infrastructure</h3>
+                <p>Provisioning infrastructure, cloud services, and automation with Terraform.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta-section">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Let’s connect</p>
+            <h2>Ready to build, automate, and deploy smarter?</h2>
+          </div>
+          <a class="btn btn-primary" href="mailto:hello@devopsjourney.dev">hello@devopsjourney.dev</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 DevOps Journey</p>
+        <p>Built with passion for learning and automation.</p>
+      </div>
+    </footer>
+  </body>
+</html>
