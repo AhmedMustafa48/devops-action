@@ -99,7 +99,9 @@ img {
   padding: 0.9rem 1.6rem;
   border-radius: 999px;
   font-weight: 600;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .btn:hover {
@@ -215,9 +217,15 @@ img {
   display: inline-block;
 }
 
-.terminal-top span:nth-child(1) { background: #ff5f57; }
-.terminal-top span:nth-child(2) { background: #febc2e; }
-.terminal-top span:nth-child(3) { background: #28c840; }
+.terminal-top span:nth-child(1) {
+  background: #ff5f57;
+}
+.terminal-top span:nth-child(2) {
+  background: #febc2e;
+}
+.terminal-top span:nth-child(3) {
+  background: #28c840;
+}
 
 .terminal-body {
   padding: 26px 20px 30px;
